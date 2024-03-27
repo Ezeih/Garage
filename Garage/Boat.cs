@@ -6,17 +6,11 @@ using System.Threading.Tasks;
 
 namespace Garage
 {
-    internal class Boat : Vehicle
+    public class Boat : Vehicle
     {
 
-
-        public Boat(string type, string make, string model, int year) : base(type, make, model, year)
-        {
-        }
-
-        public uint NumberOfEngines { get; set; }
-
-
-
+        public double Length { get; set; }
     }
+
+
 }

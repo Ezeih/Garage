@@ -8,8 +8,7 @@ namespace Garage
 {
     public class Car : Vehicle
     {
-        public Car(string type, string make, string model, int year) : base(type, make, model, year)
-        {
-        }
+        public string FuelType { get; set; }
+        public int NumberOfSeats { get; set; }
     }
 }
